@@ -65,6 +65,34 @@ Open the Command Palette with `Ctrl+Shift+P`, then:
 
 Undo a theme by choosing your old one again (the default is **Dark Modern**).
 
+### What was set up on this machine (October 10, 2026)
+
+Chosen: **Hatsune Miku** (there's no Kasane Teto theme among Doki's 88), a
+small red **fox**, and Material icons. Claude Code backed up the user settings
+to `settings.before-anime.json`, then added these lines to
+`%APPDATA%\Code\User\settings.json`:
+
+```jsonc
+"workbench.colorTheme": "bc12b380-1f2a-4a9d-89d8-388a07f1e15f",  // Doki Theme: Vocaloid: Miku (was "Abyss")
+"workbench.iconTheme": "material-icon-theme",
+"vscode-pets.petType": "fox",
+"vscode-pets.petColor": "red",
+"vscode-pets.petSize": "small",
+"vscode-pets.position": "explorer"          // the pet lives in the Explorer sidebar
+```
+
+**Why an id, not the name:** VS Code stores a theme in settings by its `id`
+when the extension gives one, and by its label otherwise. That's from VS
+Code's own code: `settingsId = theme.id || label`. Doki gives every theme an
+id, so the setting holds Miku's id.
+
+**The one step left for you:** VS Code commands can't be started from outside
+the editor, so run **Doki-Theme: Install Hatsune Miku's Sticker** yourself
+(`Ctrl+Shift+P`). Restart VS Code if asked.
+
+**Undo everything:** copy `settings.before-anime.json` back over
+`settings.json`, and run **Doki-Theme: Remove Sticker/Background**.
+
 ## References
 
 ### Official
