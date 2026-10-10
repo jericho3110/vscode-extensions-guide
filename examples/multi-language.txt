@@ -1,0 +1,27 @@
+# A starter set for a multi-language workspace (Python, Rust, C/C++, Go, Java, C#, TypeScript).
+# Install with:  python main.py install examples/multi-language.txt
+# Every id is publisher.name; see docs/TOP_EXTENSIONS.md for what each one does.
+
+# Python
+ms-python.python
+ms-python.vscode-pylance
+charliermarsh.ruff
+
+# Rust and C/C++
+rust-lang.rust-analyzer
+llvm-vs-code-extensions.vscode-clangd
+vadimcn.vscode-lldb
+
+# Other languages
+golang.go
+redhat.java
+ms-dotnettools.csharp
+tauri-apps.tauri-vscode
+
+# Everywhere
+usernamehw.errorlens
+eamodio.gitlens
+tamasfe.even-better-toml
+redhat.vscode-yaml
+davidanson.vscode-markdownlint
+github.vscode-github-actions

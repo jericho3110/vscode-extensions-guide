@@ -1,0 +1,8 @@
+{
+  // VS Code suggests these when someone opens this repo (Extensions view > "Recommended").
+  "recommendations": [
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "davidanson.vscode-markdownlint",
+  ]
+}
