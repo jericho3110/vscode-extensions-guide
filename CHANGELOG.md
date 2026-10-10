@@ -2,6 +2,14 @@
 
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versions: [SemVer](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2026-10-10
+
+### Added
+- `docs/INSTALLED_BY_CLAUDE.md`: each extension Claude Code installed, with version, publisher, reason and the project that needs it; plus the anime and fun additions (Doki Theme, VS Code Pets, Material Icon Theme), their safety notes and how to turn them on.
+
+### Fixed
+- TOP_EXTENSIONS said 33 extensions were installed; it was 32 (a miscount). Now 35.
+
 ## [0.1.0] - 2026-10-10
 
 ### Added

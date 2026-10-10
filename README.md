@@ -52,6 +52,7 @@ personal data, dangerous patterns) and `devtools links --offline`.
 | Doc | What's in it |
 | --- | --- |
 | [docs/TOP_EXTENSIONS.md](docs/TOP_EXTENSIONS.md) | **start here**: the top 10, picks by language and by job, what's installed here, what to skip |
+| [docs/INSTALLED_BY_CLAUDE.md](docs/INSTALLED_BY_CLAUDE.md) | every extension Claude Code installed on this machine, why, and how to turn the anime theme, pets and icons on |
 | [docs/INSTALLING.md](docs/INSTALLING.md) | every way to install: editor, every CLI flag, Python / PowerShell / bash / Node scripts, recommendations, profiles, VSIX, updates |
 | [docs/HOW_EXTENSIONS_WORK.md](docs/HOW_EXTENSIONS_WORK.md) | manifest, activation events, the extension host, language servers (LSP), debug adapters, files on disk |
 | [docs/SECURITY.md](docs/SECURITY.md) | threat model, what the Marketplace does and doesn't protect, the Windows `.cmd` trap, checklist |

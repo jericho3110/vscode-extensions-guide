@@ -71,7 +71,7 @@ Install all ten (and a few more) in one go:
 
 ## 4. Installed on this machine
 
-`python main.py list` on October 10, 2026 (33 extensions). Grouped by what
+`python main.py list` on October 10, 2026: 32 extensions, then 35 after the fun ones in [INSTALLED_BY_CLAUDE.md](INSTALLED_BY_CLAUDE.md#2-october-10-2026-looks-and-fun). (An earlier version said 33: a miscount.) Grouped by what
 they're used for; ★ marks the ones these projects use most.
 
 | Group | Extensions |
@@ -85,8 +85,12 @@ they're used for; ★ marks the ones these projects use most.
 | Containers | `ms-azuretools.vscode-containers@2.5.2`, `ms-vscode-remote.remote-containers@0.469.0`, `ms-kubernetes-tools.vscode-kubernetes-tools@1.4.1` |
 | AI ★ | `anthropic.claude-code@2.1.295`, `saoudrizwan.claude-dev@4.1.23` |
 
-The 9 added on October 10 for the multi-language projects: rust-analyzer,
-clangd, CodeLLDB, Go, Java, C#, Tauri, Ruff, GitHub Actions.
+The 9 added on October 10 for the multi-language projects (rust-analyzer,
+clangd, CodeLLDB, Go, Java, C#, Tauri, Ruff, GitHub Actions) and the 3 for
+looks are listed with their reasons in [INSTALLED_BY_CLAUDE.md](INSTALLED_BY_CLAUDE.md).
+
+| Looks and fun | `unthrottled.doki-theme@88.1.18` (anime themes), `tonybaloney.vscode-pets@1.36.0` (pets), `pkief.material-icon-theme@5.39.0` (file icons) |
+| --- | --- |
 
 ## 5. Ones to skip or replace
 

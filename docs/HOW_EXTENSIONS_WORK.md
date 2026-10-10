@@ -52,7 +52,7 @@ An extension's code runs only when one of its **activation events** happens:
 | `onStartupFinished` | — | shortly after startup, without slowing it |
 | `*` | — | always, at startup (discouraged: slows everyone down) |
 
-That's why 33 extensions don't make the editor slow: opening a Markdown
+That's why 35 extensions don't make the editor slow: opening a Markdown
 file never starts rust-analyzer. It's the **lazy initialization**
 pattern, the same idea as a Python import inside a function.
 
