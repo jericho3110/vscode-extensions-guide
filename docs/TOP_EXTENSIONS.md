@@ -54,6 +54,7 @@ Install all ten (and a few more) in one go:
 | TypeScript | built in | VS Code ships TypeScript support; no extension needed | [Docs](https://code.visualstudio.com/docs/languages/typescript) |
 | Tauri apps | Tauri `tauri-apps.tauri-vscode` | completions for `tauri.conf.json`, Tauri commands | [Marketplace](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) · [GitHub](https://github.com/tauri-apps/tauri-vscode) |
 | TOML | Even Better TOML `tamasfe.even-better-toml` | `Cargo.toml`, `pyproject.toml`: validation, formatting | [Marketplace](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml) · [GitHub](https://github.com/tamasfe/taplo) |
+| PowerShell | PowerShell `ms-vscode.powershell` | syntax, PSScriptAnalyzer warnings while you type, formatting, and a debugger for `.ps1` (it runs PowerShell Editor Services in the background) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell) · [GitHub](https://github.com/PowerShell/vscode-powershell) |
 | YAML | YAML `redhat.vscode-yaml` | schema checks for GitHub Actions, Kubernetes and more | [Marketplace](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) · [GitHub](https://github.com/redhat-developer/vscode-yaml) |
 
 ## 3. By job
@@ -71,7 +72,7 @@ Install all ten (and a few more) in one go:
 
 ## 4. Installed on this machine
 
-`python main.py list` on October 10, 2026: 32 extensions, then 35 after the fun ones in [INSTALLED_BY_CLAUDE.md](INSTALLED_BY_CLAUDE.md#2-october-10-2026-looks-and-fun). (An earlier version said 33: a miscount.) Grouped by what
+`python main.py list` on October 10, 2026: 32 extensions, then 35 after the fun ones in [INSTALLED_BY_CLAUDE.md](INSTALLED_BY_CLAUDE.md#2-october-10-2026-looks-and-fun), then **37** on October 11 (PowerShell and Teto Buddy, below). (An earlier version said 33: a miscount.) Grouped by what
 they're used for; ★ marks the ones these projects use most.
 
 | Group | Extensions |
@@ -79,11 +80,12 @@ they're used for; ★ marks the ones these projects use most.
 | Python ★ | `ms-python.python@2026.8.0`, `ms-python.vscode-pylance@2026.4.1`, `ms-python.debugpy@2026.6.0`, `ms-python.vscode-python-envs@1.38.0`, `charliermarsh.ruff@2026.86.0` |
 | Native ★ | `rust-lang.rust-analyzer@0.3.3073`, `llvm-vs-code-extensions.vscode-clangd@0.6.0`, `vadimcn.vscode-lldb@1.12.3` |
 | Other languages | `golang.go@0.56.1`, `redhat.java@1.56.0`, `ms-dotnettools.csharp@2.160.4` (+ `ms-dotnettools.vscode-dotnet-runtime@3.2.0`, pulled in by C#), `tauri-apps.tauri-vscode@0.2.9` |
-| Docs and config ★ | `davidanson.vscode-markdownlint@0.62.1`, `tamasfe.even-better-toml@0.21.2`, `redhat.vscode-yaml@1.24.0`, `mechatroner.rainbow-csv@3.24.1` |
+| Docs and config ★ | `davidanson.vscode-markdownlint@0.62.1`, `tamasfe.even-better-toml@0.21.2`, `redhat.vscode-yaml@1.25.0`, `mechatroner.rainbow-csv@3.24.1` |
 | Everywhere ★ | `usernamehw.errorlens@3.29.0`, `eamodio.gitlens@19.3.0`, `gruntfuggly.todo-tree@0.0.226`, `fill-labs.dependi@1.20.0`, `github.vscode-github-actions@0.32.3` |
 | Notebooks | `ms-toolsai.jupyter@2025.9.1` and its 4 helpers (keymap, renderers, cell tags, slideshow) |
+| Shell | `ms-vscode.powershell@2025.4.0` (October 11; for the `.ps1` scripts in Windows_Scripting_Guide and the Coding_Proj move) |
 | Containers | `ms-azuretools.vscode-containers@2.5.2`, `ms-vscode-remote.remote-containers@0.469.0`, `ms-kubernetes-tools.vscode-kubernetes-tools@1.4.1` |
-| AI ★ | `anthropic.claude-code@2.1.295`, `saoudrizwan.claude-dev@4.1.23` |
+| AI ★ | `anthropic.claude-code@2.1.296`, `saoudrizwan.claude-dev@4.1.23` |
 
 The 9 added on October 10 for the multi-language projects (rust-analyzer,
 clangd, CodeLLDB, Go, Java, C#, Tauri, Ruff, GitHub Actions) and the 3 for
@@ -91,6 +93,7 @@ looks are listed with their reasons in [INSTALLED_BY_CLAUDE.md](INSTALLED_BY_CLA
 
 | Looks and fun | `unthrottled.doki-theme@88.1.18` (anime themes), `tonybaloney.vscode-pets@1.36.0` (pets), `pkief.material-icon-theme@5.39.0` (file icons) |
 | --- | --- |
+| Home-made | `jericho3110.teto-buddy@0.1.1`: **Teto Buddy**, built in this workspace ([Teto_Desktop `typescript/vscode`](https://github.com/jericho3110/teto-desktop/tree/main/typescript/vscode)). Chibi Teto in the Explorer sidebar who reacts to typing, saving and errors; command **Teto: Wave**. Installed from a local `.vsix` file (`code --install-extension <file>.vsix`), not from the Marketplace, so it never auto-updates: rebuild and reinstall after changes |
 
 ## 5. Ones to skip or replace
 

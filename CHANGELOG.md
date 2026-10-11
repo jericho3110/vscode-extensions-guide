@@ -2,6 +2,14 @@
 
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versions: [SemVer](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-10-11
+
+### Added
+- TOP_EXTENSIONS: PowerShell `ms-vscode.powershell` (by language, and under installed); Teto Buddy `jericho3110.teto-buddy`, the workspace's own extension, installed from a `.vsix`. Installed count now 37.
+
+### Changed
+- Installed versions refreshed from `code --list-extensions --show-versions`: Claude Code 2.1.296, YAML 1.25.0.
+
 ## [0.2.0] - 2026-10-10
 
 ### Added
